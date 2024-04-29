@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 40px; /* Added padding for smaller screens */
+}
+
+.container {
+    background: white;
+    padding: 40px; /* Increase padding for more space inside the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 50%; /* Increase width of the form */
+    max-width: 800px; /* Set a max-width for very large screens */
+    box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+    color: #482D80; /* Aston University's royal purple */
+    margin-bottom: 20px; /* Add more space below the title */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increase spacing between inputs */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Adjusted label spacing */
+    color: #333; /* Darker color for better readability */
+    font-size: 18px; /* Increase font size for readability */
+}
+
+input[type="text"],
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 12px; /* Increased padding for a larger input area */
+    border: 2px solid #482D80; /* Thicker border and royal purple */
+    border-radius: 4px;
+    font-size: 16px; /* Slightly larger font size for inputs */
+}
+
+button {
+    width: 100%;
+    padding: 15px; /* Larger button for easier clicking */
+    background-color: #482D80; /* Royal purple background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for the button */
+    margin-top: 10px; /* Add space above the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #3a1d62; /* Slightly darker purple on hover */
+}
